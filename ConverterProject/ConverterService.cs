@@ -20,8 +20,9 @@ namespace Converter.ConverterProject
 
         public void Dispose()
         {
-            Dispose();
-            GC.SuppressFinalize(this);
+            //Commit Dispose
+            //Dispose();
+            //GC.SuppressFinalize(this);
         }
     }
 }
