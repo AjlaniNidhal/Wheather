@@ -14,7 +14,7 @@ namespace Converter.ConverterProject
         }
 
         public double GetCelciusFromFernhait(double FR)
-        {
+        { //Commit Bugfix
             return (FR - 32) * 5.0f / 9.0f;
         }
 
