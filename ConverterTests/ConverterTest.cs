@@ -41,6 +41,7 @@ namespace Converter.ConverterTests
 
         //}
 
+
         [Theory]
         [InlineData(0, 32)]
         [InlineData(-10, 14)]
